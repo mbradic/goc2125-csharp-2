@@ -1,3 +1,5 @@
+**C:\\> dotnet**
+
 Usage: dotnet [runtime-options] [path-to-application] [arguments]
 
 Execute a .NET application.
