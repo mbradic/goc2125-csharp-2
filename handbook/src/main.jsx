@@ -7,6 +7,8 @@ import Description from "./Description.jsx";
 import StudyGoals from "./StudyGoals.jsx";
 import RequiredKnowledge from "./RequiredKnowledge.jsx";
 import ToC from "./ToC.jsx";
+import Lessons from "./Lessons.jsx";
+
 
 const router = createBrowserRouter([
   {
@@ -17,6 +19,11 @@ const router = createBrowserRouter([
       { path: "studyGoals", element: <StudyGoals /> },
       { path: "requiredKnowledge", element: <RequiredKnowledge /> },
       { path: "toc", element: <ToC /> },
+      {
+        path: "lessons/:lesson?/:topic?",
+        element: <Lessons />,
+        
+      },
     ],
   },
 ]);

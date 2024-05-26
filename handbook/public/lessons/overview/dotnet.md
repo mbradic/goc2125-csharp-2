@@ -1,0 +1,7 @@
+- runtime
+  - standard library
+  - CLR
+- sdk
+  - dotnet cli
+  - kompajlery mnoha jaziků
+- ide

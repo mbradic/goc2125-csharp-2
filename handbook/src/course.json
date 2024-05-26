@@ -1,7 +1,7 @@
 {
   "gopasUrl": "https://www.gopas.cz/jazyk-c-sharp-programovani-ii_goc2125",
   "code": "GOC2125",
-  "title": "Jazyk C# – programování II",
+  "title": "Jazyk C# - programování II",
   "description": [
     "Kurz je určen pro všechny programátory, kteří již mají základní zkušenosti s programováním v jazyce C# a chtějí získat další sirší a praktické znalosti a dovednosti. Na kurzu se naučíte používat moderní rozšíření jazyka c#, generické datové typy, delegáty, extension metody, tuples, dekonstrukci, anonymní metody, lambda výrazy, LINQ, atributy, pochopíte jak funguje správa paměti pomocí Garbage Collectoru, naučíte se serializovat data a používat streamy. Kurz předpokládá základní znalosti programování v jazyce C# přibližně v rozsahu kurzu GOC2124."
   ],
@@ -57,15 +57,45 @@
     {
       "title": "Stručný přehled platformy .Net a jazyka C#",
       "topics": [
-        "Přehled platformy .Net",
-        "Základní nástroje příkazové řádky",
-        "Stručný přehled základních pojmů OOP",
-        "Třída a statické členy",
-        "Dědičnost a polymorfismus",
-        "Virtuální metody a zastiňování",
-        "Interface"
+        {
+          "title": "Přehled platformy .Net",
+          "shortTitle": ".NET",
+          "path": "dotnet",
+          "content": "<ul><li>runtime</li></ul>"
+        },
+        {
+          "title": "Základní nástroje příkazové řádky",
+          "path": "cli",
+          "shortTitle": "dotnet cli"
+        },
+        {
+          "path": "oop",
+          "shortTitle": "OOP",
+          "title": "Stručný přehled základních pojmů OOP"
+        },
+        {
+          "path": "static",
+          "shortTitle": "static",
+          "title": "Třída a statické členy"
+        },
+        {
+          "path": "inheritance",
+          "shortTitle": "Polymorfismus",
+          "title": "Dědičnost a polymorfismus"
+        },
+        {
+          "title": "Virtuální metody a zastiňování",
+          "shortTitle": "override vs new",
+          "path": "virtual"
+        },
+        {
+          "title": "Interface",
+          "shortTitle": "Interface",
+          "path": "interface"
+        }
       ],
-      "path": "overview"
+      "path": "overview",
+      "shortTitle": "Přehled"
     },
     {
       "title": "Generické datové typy",
@@ -76,7 +106,8 @@
         "Generické metody",
         "Generické kolekce"
       ],
-      "path": "generics"
+      "path": "generics",
+      "shortTitle": "Generické typy"
     },
     {
       "title": "Přetěžování operátorů operator overloading",
@@ -84,7 +115,8 @@
         "Úvod do přetěžování operátorů",
         "Implicitní a explicitní přetížení"
       ],
-      "path": "operator-overloading"
+      "path": "operator-overloading",
+      "shortTitle": "Operator overloading"
     },
     {
       "title": "Delegáti a události",
@@ -93,7 +125,8 @@
         "Použití callbacku",
         "Použití událostí"
       ],
-      "path": "delegates-events"
+      "path": "delegates-events",
+      "shortTitle": "Události"
     },
     {
       "title": "Rozšíření jazyka předchozích verzí",
@@ -108,7 +141,8 @@
         "Volitelné a pojmenované parametry",
         "Object Initializers"
       ],
-      "path": "whats-new"
+      "path": "whats-new",
+      "shortTitle": "Co je nové"
     },
     {
       "title": "Delegáti Lambda výrazy a LINQ",
@@ -120,7 +154,8 @@
         "Closure",
         "Covariance a Contravariance"
       ],
-      "path": "delegates-lambdas-linq"
+      "path": "delegates-lambdas-linq",
+      "shortTitle": "Lambda"
     },
     {
       "title": "Pattern Matching",
@@ -130,12 +165,14 @@
         "Is Pattern Matching",
         "Switch Pattern Expression and Expression Bodies"
       ],
-      "path": "pattern-matching"
+      "path": "pattern-matching",
+      "shortTitle": "Pattern matching"
     },
     {
       "title": "Records",
       "topics": ["Úvod do Records", "Mutability", "Value Equality"],
-      "path": "records"
+      "path": "records",
+      "shortTitle": "Records"
     },
     {
       "title": "Assemblies a atributy",
@@ -143,7 +180,8 @@
         "Direktivy kompilátoru a podmíněná kompilace",
         "Assemblies a použití atributů"
       ],
-      "path": "assemblies-attributes"
+      "path": "assemblies-attributes",
+      "shortTitle": "Assemblies"
     },
     {
       "title": "Správa paměti a zdrojů a Garbage Collector",
@@ -155,7 +193,8 @@
         "Weak reference",
         "Generace"
       ],
-      "path": "gc"
+      "path": "gc",
+      "shortTitle": "GC"
     },
     {
       "title": "Čtení a zápis dat pomocí streamů",
@@ -168,7 +207,8 @@
         "Použití třídy FileSystemWatcher",
         "Použití třídy CryptoStream"
       ],
-      "path": "streams"
+      "path": "streams",
+      "shortTitle": "Streamy"
     },
     {
       "title": "Serializace dat",
@@ -179,7 +219,8 @@
         "Serializace Binární",
         "Serializace JSON"
       ],
-      "path": "serialization"
+      "path": "serialization",
+      "shortTitle": "Serializace"
     }
   ]
 }
