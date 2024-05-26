@@ -25,7 +25,7 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
+  /* place-items: center; */
   min-width: 320px;
   min-height: 100vh;
 }
@@ -65,4 +65,14 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.active {
+  color:#ffffff;
+  text-decoration: underline;
+}
+
+.active:hover {
+  color: #dddddd;
+  text-decoration: underline;
 }

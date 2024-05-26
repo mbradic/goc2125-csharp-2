@@ -1,8 +1,9 @@
 {
-    "$schema": {
-        "code": "string",
-        "name": "string"
-    },
-    "code": "GOC2125",
-    "name": "Jazyk C# - programování II"
+  "$schema": {
+    "code": "string",
+    "name": "string"
+  },
+  "code": "GOC2125",
+  "name": "Jazyk C# - programování II",
+  "anotation": "Kurz je určen pro všechny programátory, kteří již mají základní zkušenosti s programováním v jazyce C# a chtějí získat další sirší a praktické znalosti a dovednosti. Na kurzu se naučíte používat moderní rozšíření jazyka c#, generické datové typy, delegáty, extension metody, tuples, dekonstrukci, anonymní metody, lambda výrazy, LINQ, atributy, pochopíte jak funguje správa paměti pomocí Garbage Collectoru, naučíte se serializovat data a používat streamy. Kurz předpokládá základní znalosti programování v jazyce C# přibližně v rozsahu kurzu GOC2124."
 }

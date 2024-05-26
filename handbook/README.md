@@ -2,12 +2,13 @@
 
 ## TODO
 
-- [ ] Finish App component
-  - [x] Title
-    - [x] Code
-    - [x] Name
-  - [x] Router
-  - [ ] Main navbar
-  - [ ] Outlet
-  - [ ] Styling
-  - [ ] Anotation
+- [ ] Finish homepage
+  - [ ] Finish App component
+    - [x] Title
+      - [x] Code
+      - [x] Name
+    - [x] Router
+    - [x] Outlet
+    - [ ] Anotation
+    - [ ] Main navbar
+    - [ ] Styling
