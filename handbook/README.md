@@ -6,7 +6,8 @@
   - [x] Title
     - [x] Code
     - [x] Name
+  - [x] Router
   - [ ] Main navbar
-    - [ ] Router
   - [ ] Outlet
   - [ ] Styling
+  - [ ] Anotation
