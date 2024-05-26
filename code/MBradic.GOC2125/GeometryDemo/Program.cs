@@ -1,8 +1,8 @@
 ﻿namespace GeometryDemo {
     internal class Program {
 
-        static Circle small = new Circle(5);
-        static Circle large = new Circle(25);
+        static Circle small = new Circle(5); // statické pole
+        static Circle large = new Circle(25); // statické pole
         
         static void Main(string[] args) {
             PrintCircles();
@@ -11,7 +11,7 @@
             PrintCircles();
         }
 
-        static void PrintCircles() {
+        static void PrintCircles() { // statická metoda
             Console.WriteLine($"Hodnota PI je {Circle.PI}");
             Console.WriteLine(small);
             Console.WriteLine(large);
