@@ -28,11 +28,12 @@ function App() {
         {" | "}
         <TopLink to="toc" label="Osnova" />
       </nav>
+      <hr />
       <nav>
         {course.lessons.map((lesson, lessonIndex, arr) => (
           <Fragment key={lessonIndex}>
-            <TopLink to={"lessons/" + lesson.path} />
-            {lessonIndex === arr.length - 1 && " | "}
+            <TopLink to={"lessons/" + lesson.path} label={lesson.title} />
+            {lessonIndex === arr.length - 1 || " | "}
           </Fragment>
         ))}
       </nav>

@@ -13,23 +13,52 @@ const parseToC = (tocHtml) => {
   const paragraphs = root.querySelectorAll("p");
   const lists = root.querySelectorAll("ul");
   const lessons = [];
-  let lessonPaths;
-  if (existsSync("lesson-paths.json"))
-    lessonPaths = JSON.parse(
-      readFileSync("lesson-paths.json", { encoding: "utf-8" })
-    );
-  for (let i = 0; i < paragraphs.length; i++) {
-    const lesson = {
-      title: paragraphs[i].textContent,
-      topics: lists[i].querySelectorAll("li").map((li) => li.innerHTML),
-    };
-    if (!lessonPaths)
-      lesson.path = readlineSync.question(`Path for lesson ${lesson.title}? >`);
-    else lesson.path = lessonPaths.find((lp) => lp.title === lesson.title).path;
 
+  let lessonPaths;
+  const lessonPathsFileName = "lesson-paths.json";
+  if (existsSync(lessonPathsFileName))
+    lessonPaths = JSON.parse(
+      readFileSync(lessonPathsFileName, { encoding: "utf-8" })
+    );
+
+  let lessonShortTitles;
+  const lessonShortTitlesFileName = "lesson-short-titles.json";
+  if (existsSync(lessonShortTitlesFileName))
+    lessonShortTitles = JSON.parse(
+      readFileSync(lessonShortTitlesFileName, { encoding: "utf-8" })
+    );
+
+  for (let i = 0; i < paragraphs.length; i++) {
+    const lesson = getLesson(i);
+    addLessonPath(lesson);
+    addLessonShortTitle(lesson);
     lessons.push(lesson);
   }
   return lessons;
+
+  function addLessonPath(lesson) {
+    if (!lessonPaths)
+      lesson.path = readlineSync.question(`Path for lesson ${lesson.title}?> `);
+    else lesson.path = lessonPaths.find((lp) => lp.title === lesson.title).path;
+  }
+
+  function addLessonShortTitle(lesson) {
+    if (!lessonShortTitles)
+      lesson.shortTitle = readlineSync.question(
+        `Short title for lesson ${lesson.title}?> `
+      );
+    else
+      lesson.shotrTitle = lessonShortTitles.find(
+        (lst) => lst.title === lesson.title
+      ).shortTitle;
+  }
+
+  function getLesson(i) {
+    return {
+      title: paragraphs[i].textContent,
+      topics: lists[i].querySelectorAll("li").map((li) => li.innerHTML),
+    };
+  }
 };
 
 const relevantProps = [
@@ -50,5 +79,17 @@ for (let propety of course.properties) {
 }
 
 writeFileSync("course-level-1.json", JSON.stringify(course));
+
+const lessonPaths = course.lessons.map((lesson) => ({
+  title: lesson.title,
+  path: lesson.path,
+}));
+writeFileSync("lesson-paths.json", JSON.stringify(lessonPaths));
+
+const lessonShortTitles = course.lessons.map((lst) => ({
+  title: lst.title,
+  path: lst.shortTitle,
+}));
+writeFileSync("lesson-short-titles.json", JSON.stringify(lessonShortTitles));
 
 //console.log(course);

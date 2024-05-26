@@ -1,7 +1,7 @@
 {
   "gopasUrl": "https://www.gopas.cz/jazyk-c-sharp-programovani-ii_goc2125",
   "code": "GOC2125",
-  "title": "Jazyk C# - programování II",
+  "title": "Jazyk C# – programování II",
   "description": [
     "Kurz je určen pro všechny programátory, kteří již mají základní zkušenosti s programováním v jazyce C# a chtějí získat další sirší a praktické znalosti a dovednosti. Na kurzu se naučíte používat moderní rozšíření jazyka c#, generické datové typy, delegáty, extension metody, tuples, dekonstrukci, anonymní metody, lambda výrazy, LINQ, atributy, pochopíte jak funguje správa paměti pomocí Garbage Collectoru, naučíte se serializovat data a používat streamy. Kurz předpokládá základní znalosti programování v jazyce C# přibližně v rozsahu kurzu GOC2124."
   ],
@@ -64,7 +64,8 @@
         "Dědičnost a polymorfismus",
         "Virtuální metody a zastiňování",
         "Interface"
-      ]
+      ],
+      "path": "overview"
     },
     {
       "title": "Generické datové typy",
@@ -74,14 +75,16 @@
         "Generický interface",
         "Generické metody",
         "Generické kolekce"
-      ]
+      ],
+      "path": "generics"
     },
     {
       "title": "Přetěžování operátorů operator overloading",
       "topics": [
         "Úvod do přetěžování operátorů",
         "Implicitní a explicitní přetížení"
-      ]
+      ],
+      "path": "operator-overloading"
     },
     {
       "title": "Delegáti a události",
@@ -89,7 +92,8 @@
         "Definice a použití delegátů",
         "Použití callbacku",
         "Použití událostí"
-      ]
+      ],
+      "path": "delegates-events"
     },
     {
       "title": "Rozšíření jazyka předchozích verzí",
@@ -103,7 +107,8 @@
         "Extension methods",
         "Volitelné a pojmenované parametry",
         "Object Initializers"
-      ]
+      ],
+      "path": "whats-new"
     },
     {
       "title": "Delegáti Lambda výrazy a LINQ",
@@ -114,7 +119,8 @@
         "IEnumerable a IQueryable",
         "Closure",
         "Covariance a Contravariance"
-      ]
+      ],
+      "path": "delegates-lambdas-linq"
     },
     {
       "title": "Pattern Matching",
@@ -123,18 +129,21 @@
         "Switch Pattern Matching",
         "Is Pattern Matching",
         "Switch Pattern Expression and Expression Bodies"
-      ]
+      ],
+      "path": "pattern-matching"
     },
     {
       "title": "Records",
-      "topics": ["Úvod do Records", "Mutability", "Value Equality"]
+      "topics": ["Úvod do Records", "Mutability", "Value Equality"],
+      "path": "records"
     },
     {
       "title": "Assemblies a atributy",
       "topics": [
         "Direktivy kompilátoru a podmíněná kompilace",
         "Assemblies a použití atributů"
-      ]
+      ],
+      "path": "assemblies-attributes"
     },
     {
       "title": "Správa paměti a zdrojů a Garbage Collector",
@@ -145,7 +154,8 @@
         "Using a IDisposable",
         "Weak reference",
         "Generace"
-      ]
+      ],
+      "path": "gc"
     },
     {
       "title": "Čtení a zápis dat pomocí streamů",
@@ -157,7 +167,8 @@
         "Použití třídy FileInfo",
         "Použití třídy FileSystemWatcher",
         "Použití třídy CryptoStream"
-      ]
+      ],
+      "path": "streams"
     },
     {
       "title": "Serializace dat",
@@ -167,7 +178,8 @@
         "Serializace XML",
         "Serializace Binární",
         "Serializace JSON"
-      ]
+      ],
+      "path": "serialization"
     }
   ]
 }
