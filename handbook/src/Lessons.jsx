@@ -6,6 +6,7 @@ import Markdown from "react-markdown";
 
 function Lessons() {
   const [markdown, setMarkdown] = useState();
+  const [codeFiles, setCodeFiles] = useState([]);
 
   const params = useParams();
   const lesson = course.lessons.find((l) =>
@@ -22,9 +23,13 @@ function Lessons() {
         `https://raw.githubusercontent.com/mbradic/goc2125-csharp-2/main/handbook/public/lessons/${lesson.path}/${topic.path}.md`
       );
       setMarkdown(await markdownResponse.text());
+
+      if(topic.showCode) {
+        const codeFilesResponse = await fetch('https://api.github.com/repos/mbradic/goc2125-csharp-2/contents/code/MBradic.GOC2125?ref=master')
+      }
     }
     getData();
-  }, [lesson.path, topic.path]);
+  }, [lesson.path, topic.path, topic.showCode]);
 
   return (
     <>

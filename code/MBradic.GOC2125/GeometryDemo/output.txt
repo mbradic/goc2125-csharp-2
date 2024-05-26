@@ -1,0 +1,7 @@
+Hodnota PI je 3.14
+(Kruh) Polomìr: 5, Obsah: 78.5
+(Kruh) Polomìr: 25, Obsah: 1962.5
+
+Hodnota PI je 4
+(Kruh) Polomìr: 5, Obsah: 100
+(Kruh) Polomìr: 25, Obsah: 2500

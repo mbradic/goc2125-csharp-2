@@ -1,0 +1,15 @@
+D:\_gopas\goc2125-csharp-2\code\MBradic.GOC2125\GeometryDemo\bin\Debug\net8.0\GeometryDemo.exe
+D:\_gopas\goc2125-csharp-2\code\MBradic.GOC2125\GeometryDemo\bin\Debug\net8.0\GeometryDemo.deps.json
+D:\_gopas\goc2125-csharp-2\code\MBradic.GOC2125\GeometryDemo\bin\Debug\net8.0\GeometryDemo.runtimeconfig.json
+D:\_gopas\goc2125-csharp-2\code\MBradic.GOC2125\GeometryDemo\bin\Debug\net8.0\GeometryDemo.dll
+D:\_gopas\goc2125-csharp-2\code\MBradic.GOC2125\GeometryDemo\bin\Debug\net8.0\GeometryDemo.pdb
+D:\_gopas\goc2125-csharp-2\code\MBradic.GOC2125\GeometryDemo\obj\Debug\net8.0\GeometryDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\_gopas\goc2125-csharp-2\code\MBradic.GOC2125\GeometryDemo\obj\Debug\net8.0\GeometryDemo.AssemblyInfoInputs.cache
+D:\_gopas\goc2125-csharp-2\code\MBradic.GOC2125\GeometryDemo\obj\Debug\net8.0\GeometryDemo.AssemblyInfo.cs
+D:\_gopas\goc2125-csharp-2\code\MBradic.GOC2125\GeometryDemo\obj\Debug\net8.0\GeometryDemo.csproj.CoreCompileInputs.cache
+D:\_gopas\goc2125-csharp-2\code\MBradic.GOC2125\GeometryDemo\obj\Debug\net8.0\GeometryDemo.sourcelink.json
+D:\_gopas\goc2125-csharp-2\code\MBradic.GOC2125\GeometryDemo\obj\Debug\net8.0\GeometryDemo.dll
+D:\_gopas\goc2125-csharp-2\code\MBradic.GOC2125\GeometryDemo\obj\Debug\net8.0\refint\GeometryDemo.dll
+D:\_gopas\goc2125-csharp-2\code\MBradic.GOC2125\GeometryDemo\obj\Debug\net8.0\GeometryDemo.pdb
+D:\_gopas\goc2125-csharp-2\code\MBradic.GOC2125\GeometryDemo\obj\Debug\net8.0\GeometryDemo.genruntimeconfig.cache
+D:\_gopas\goc2125-csharp-2\code\MBradic.GOC2125\GeometryDemo\obj\Debug\net8.0\ref\GeometryDemo.dll
