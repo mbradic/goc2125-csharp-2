@@ -2,13 +2,17 @@
 
 ## TODO
 
-- [ ] Finish homepage
-  - [ ] Finish App component
+- [x] Homepage
+  - [x] App component
     - [x] Title
       - [x] Code
       - [x] Name
     - [x] Router
     - [x] Outlet
-    - [ ] Anotation
-    - [ ] Main navbar
-    - [ ] Styling
+    - [x] Main navbar
+    - [x] Styling
+- [x] Anotation
+- [x] Required knowledge
+- [x] Study goals
+- [x] ToC
+- [ ] Lessons

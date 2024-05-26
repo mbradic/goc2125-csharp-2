@@ -1,9 +1,173 @@
 {
-  "$schema": {
-    "code": "string",
-    "name": "string"
-  },
+  "gopasUrl": "https://www.gopas.cz/jazyk-c-sharp-programovani-ii_goc2125",
   "code": "GOC2125",
-  "name": "Jazyk C# - programování II",
-  "anotation": "Kurz je určen pro všechny programátory, kteří již mají základní zkušenosti s programováním v jazyce C# a chtějí získat další sirší a praktické znalosti a dovednosti. Na kurzu se naučíte používat moderní rozšíření jazyka c#, generické datové typy, delegáty, extension metody, tuples, dekonstrukci, anonymní metody, lambda výrazy, LINQ, atributy, pochopíte jak funguje správa paměti pomocí Garbage Collectoru, naučíte se serializovat data a používat streamy. Kurz předpokládá základní znalosti programování v jazyce C# přibližně v rozsahu kurzu GOC2124."
+  "title": "Jazyk C# - programování II",
+  "description": [
+    "Kurz je určen pro všechny programátory, kteří již mají základní zkušenosti s programováním v jazyce C# a chtějí získat další sirší a praktické znalosti a dovednosti. Na kurzu se naučíte používat moderní rozšíření jazyka c#, generické datové typy, delegáty, extension metody, tuples, dekonstrukci, anonymní metody, lambda výrazy, LINQ, atributy, pochopíte jak funguje správa paměti pomocí Garbage Collectoru, naučíte se serializovat data a používat streamy. Kurz předpokládá základní znalosti programování v jazyce C# přibližně v rozsahu kurzu GOC2124."
+  ],
+  "properties": [
+    {
+      "title": "Co Vás naučíme",
+      "html": "\r\n                                    \r\n<ul>\r\n<li>Stručný přehled platformy .Net a jazyka C#</li>\r\n<li>Stručná rekapitulace OOP</li>\r\n<li>Generické datové typy</li>\r\n<li>Vybraná rozšíření jazyka posledních verzí</li>\r\n<li>Delegáti, Lambda výrazy a LINQ</li>\r\n<li>Direktivy kompilátoru, Atributy a Assemblies</li>\r\n<li>Správa paměti a zdrojů a Garbage Collector</li>\r\n<li>Čtení a zápis dat pomocí streamů.</li>\r\n<li>Serializace dat</li>\r\n</ul>\r\n\r\n                                ",
+      "propName": "studyGoals"
+    },
+    {
+      "title": "Požadované vstupní znalosti",
+      "html": "\r\n                                    \r\n<ul>\r\n<li>Kurz předpokládá znalosti a zkušenosti s programováním v jazyce C# na úrovni kurzu GOC2124</li>\r\n<li>Kurz lze absolvovat i bez předchozích znalostí jazyka C# a platformy .Net, ale v tom případě jsou nutné velmi dobré znalosti programování z jiných platforem a jazyků, jako je Java nebo C++.</li>\r\n</ul>\r\n\r\n                                ",
+      "propName": "requiredKnowledge"
+    },
+    {
+      "title": "Metody výuky",
+      "html": "\r\n                                    \r\n<ul>\r\n<li>Odborný výklad s praktickými ukázkami, cvičení na počítačích.</li>\r\n</ul>\r\n\r\n                                "
+    },
+    {
+      "title": "Studijní materiály",
+      "html": "\r\n                                    \r\n<ul>\r\n<li>Tištěné prezentace probírané látky.</li>\r\n</ul>\r\n\r\n                                "
+    },
+    {
+      "title": "Osnova kurzu",
+      "html": "\r\n                                    \r\n<p>Stručný přehled platformy .Net a jazyka C#</p>\r\n<ul>\r\n<li>Přehled platformy .Net</li>\r\n<li>Základní nástroje příkazové řádky</li>\r\n<li>Stručný přehled základních pojmů OOP</li>\r\n<li>Třída a statické členy</li>\r\n<li>Dědičnost a polymorfismus</li>\r\n<li>Virtuální metody a zastiňování</li>\r\n<li>Interface</li>\r\n</ul>\r\n<p>Generické datové typy</p>\r\n<ul>\r\n<li>Generické typy a typová bezpečnost</li>\r\n<li>Generické třídy</li>\r\n<li>Generický interface</li>\r\n<li>Generické metody</li>\r\n<li>Generické kolekce</li>\r\n</ul>\r\n<p>Přetěžování operátorů operator overloading</p>\r\n<ul>\r\n<li>Úvod do přetěžování operátorů</li>\r\n<li>Implicitní a explicitní přetížení</li>\r\n</ul>\r\n<p>Delegáti a události</p>\r\n<ul>\r\n<li>Definice a použití delegátů</li>\r\n<li>Použití callbacku</li>\r\n<li>Použití událostí</li>\r\n</ul>\r\n<p>Rozšíření jazyka předchozích verzí</p>\r\n<ul>\r\n<li>Klíčové slovo „var“</li>\r\n<li>Partial Classes</li>\r\n<li>Nullable Types and Operators ??, ?., ?[</li>\r\n<li>Automatic properties</li>\r\n<li>Tuples</li>\r\n<li>Discards, Out variables, Deconstructions</li>\r\n<li>Extension methods</li>\r\n<li>Volitelné a pojmenované parametry</li>\r\n<li>Object Initializers</li>\r\n</ul>\r\n<p>Delegáti Lambda výrazy a LINQ</p>\r\n<ul>\r\n<li>Anonymní typy</li>\r\n<li>Lambda výrazy</li>\r\n<li>Generičtí delegáti</li>\r\n<li>IEnumerable a IQueryable</li>\r\n<li>Closure</li>\r\n<li>Covariance a Contravariance</li>\r\n</ul>\r\n<p>Pattern Matching</p>\r\n<ul>\r\n<li>Pattern Matching Overview</li>\r\n<li>Switch Pattern Matching</li>\r\n<li>Is Pattern Matching</li>\r\n<li>Switch Pattern Expression and Expression Bodies</li>\r\n</ul>\r\n<p>Records</p>\r\n<ul>\r\n<li>Úvod do Records</li>\r\n<li>Mutability</li>\r\n<li>Value Equality</li>\r\n</ul>\r\n<p>Assemblies a atributy</p>\r\n<ul>\r\n<li>Direktivy kompilátoru a podmíněná kompilace</li>\r\n<li>Assemblies a použití atributů</li>\r\n</ul>\r\n<p>Správa paměti a zdrojů a Garbage Collector</p>\r\n<ul>\r\n<li>Garbage Collector</li>\r\n<li>Implicitní a Explicitní uvolňování zdrojů</li>\r\n<li>Interface IDisposable</li>\r\n<li>Using a IDisposable</li>\r\n<li>Weak reference</li>\r\n<li>Generace</li>\r\n</ul>\r\n<p>Čtení a zápis dat pomocí streamů</p>\r\n<ul>\r\n<li>Úvod do streamů</li>\r\n<li>Použití třídy FileStream</li>\r\n<li>BinaryReader a BinaryWriter</li>\r\n<li>StreamReader a StreamWriter</li>\r\n<li>Použití třídy FileInfo</li>\r\n<li>Použití třídy FileSystemWatcher</li>\r\n<li>Použití třídy CryptoStream</li>\r\n</ul>\r\n<p>Serializace dat</p>\r\n<ul>\r\n<li>Úvod do serializace</li>\r\n<li>Shallow a deep serializace</li>\r\n<li>Serializace XML</li>\r\n<li>Serializace Binární</li>\r\n<li>Serializace JSON</li>\r\n</ul>\r\n                                ",
+      "propName": "lessons"
+    },
+    {
+      "title": "Související kurzy",
+      "html": "\r\n\t\t\t\t\t\t\t\t\t\t\t<h6>Předchozí kurzy</h6>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<p>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"/jazyk-c-sharp-programovani-i_goc2124\">Jazyk C# &#x2013; programov&#xE1;n&#xED; I [GOC2124]</a>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</p>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<h6>Navazující kurzy</h6>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<p>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"/tvorba-databazovych-aplikaci-pomoci-orm-(entity-framework)_dotnet_db\">Tvorba datab&#xE1;zov&#xFD;ch aplikac&#xED; pomoc&#xED; ORM (Entity Framework) [DOTNET_DB]</a>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</p>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<p>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"/asp-net-ii_aspnet_adv\">ASP.NET II [ASPNET_ADV]</a>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</p>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<p>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"/asp-net-vyvoj-aplikaci-v-blazoru_aspnet_blazor\">ASP.NET - V&#xFD;voj aplikac&#xED; v Blazoru [ASPNET_BLAZOR]</a>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</p>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<p>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"/asp-net-i_aspnet_intro\">ASP.NET I [ASPNET_INTRO]</a>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</p>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<p>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"/paralelni-asynchronni-a-vicevlaknove-aplikace_goc407\">Paraleln&#xED;, asynchronn&#xED; a v&#xED;cevl&#xE1;knov&#xE9; aplikace [GOC407]</a>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</p>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<p>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"/tvorba-databazovych-aplikaci-pomoci-ado-net_goc311\">Tvorba datab&#xE1;zov&#xFD;ch aplikac&#xED; pomoc&#xED; ADO.NET [GOC311]</a>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</p>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<p>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"/grpc-microservices-v-prostredi-net_goc3410\">gRPC Microservices v prost&#x159;ed&#xED; .NET [GOC3410]</a>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</p>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<h6>Související kurzy</h6>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<p>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"/-net-maui_dotnet_maui\">.NET MAUI [DOTNET_MAUI]</a>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</p>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<p>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"/vyvoj-windows-aplikaci-pomoci-wpf-s-pouzitim-patternu-mvvm_dotnet_wpf2\">V&#xFD;voj Windows aplikac&#xED; pomoc&#xED; WPF s pou&#x17E;it&#xED;m patternu MVVM [DOTNET_WPF2]</a>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</p>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<p>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"/vyvoj-automatizovanych-testu-v-prostredi-visual-studio_dotnet_test\">V&#xFD;voj automatizovan&#xFD;ch test&#x16F; v prost&#x159;ed&#xED; Visual Studio [DOTNET_TEST]</a>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</p>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<p>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"/vyvoj-windows-aplikaci-pomoci-wpf_dotnet_wpf\">V&#xFD;voj Windows aplikac&#xED; pomoc&#xED; WPF [DOTNET_WPF]</a>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</p>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"
+    },
+    {
+      "title": "PDF detail",
+      "html": "\r\n                                    <a href=\"/get-course-pdf-detail/7530853\">Stáhnout PDF detail</a><br>\r\n                                    <a href=\"/get-course-pdf-detail-no-terms/7530853\">Stáhnout PDF detail (bez termínů)</a>\r\n                            "
+    }
+  ],
+  "studyGoals": [
+    "Stručný přehled platformy .Net a jazyka C#",
+    "Stručná rekapitulace OOP",
+    "Generické datové typy",
+    "Vybraná rozšíření jazyka posledních verzí",
+    "Delegáti, Lambda výrazy a LINQ",
+    "Direktivy kompilátoru, Atributy a Assemblies",
+    "Správa paměti a zdrojů a Garbage Collector",
+    "Čtení a zápis dat pomocí streamů.",
+    "Serializace dat"
+  ],
+  "requiredKnowledge": [
+    "Kurz předpokládá znalosti a zkušenosti s programováním v jazyce C# na úrovni kurzu GOC2124",
+    "Kurz lze absolvovat i bez předchozích znalostí jazyka C# a platformy .Net, ale v tom případě jsou nutné velmi dobré znalosti programování z jiných platforem a jazyků, jako je Java nebo C++."
+  ],
+  "lessons": [
+    {
+      "title": "Stručný přehled platformy .Net a jazyka C#",
+      "topics": [
+        "Přehled platformy .Net",
+        "Základní nástroje příkazové řádky",
+        "Stručný přehled základních pojmů OOP",
+        "Třída a statické členy",
+        "Dědičnost a polymorfismus",
+        "Virtuální metody a zastiňování",
+        "Interface"
+      ]
+    },
+    {
+      "title": "Generické datové typy",
+      "topics": [
+        "Generické typy a typová bezpečnost",
+        "Generické třídy",
+        "Generický interface",
+        "Generické metody",
+        "Generické kolekce"
+      ]
+    },
+    {
+      "title": "Přetěžování operátorů operator overloading",
+      "topics": [
+        "Úvod do přetěžování operátorů",
+        "Implicitní a explicitní přetížení"
+      ]
+    },
+    {
+      "title": "Delegáti a události",
+      "topics": [
+        "Definice a použití delegátů",
+        "Použití callbacku",
+        "Použití událostí"
+      ]
+    },
+    {
+      "title": "Rozšíření jazyka předchozích verzí",
+      "topics": [
+        "Klíčové slovo „var“",
+        "Partial Classes",
+        "Nullable Types and Operators ??, ?., ?[",
+        "Automatic properties",
+        "Tuples",
+        "Discards, Out variables, Deconstructions",
+        "Extension methods",
+        "Volitelné a pojmenované parametry",
+        "Object Initializers"
+      ]
+    },
+    {
+      "title": "Delegáti Lambda výrazy a LINQ",
+      "topics": [
+        "Anonymní typy",
+        "Lambda výrazy",
+        "Generičtí delegáti",
+        "IEnumerable a IQueryable",
+        "Closure",
+        "Covariance a Contravariance"
+      ]
+    },
+    {
+      "title": "Pattern Matching",
+      "topics": [
+        "Pattern Matching Overview",
+        "Switch Pattern Matching",
+        "Is Pattern Matching",
+        "Switch Pattern Expression and Expression Bodies"
+      ]
+    },
+    {
+      "title": "Records",
+      "topics": ["Úvod do Records", "Mutability", "Value Equality"]
+    },
+    {
+      "title": "Assemblies a atributy",
+      "topics": [
+        "Direktivy kompilátoru a podmíněná kompilace",
+        "Assemblies a použití atributů"
+      ]
+    },
+    {
+      "title": "Správa paměti a zdrojů a Garbage Collector",
+      "topics": [
+        "Garbage Collector",
+        "Implicitní a Explicitní uvolňování zdrojů",
+        "Interface IDisposable",
+        "Using a IDisposable",
+        "Weak reference",
+        "Generace"
+      ]
+    },
+    {
+      "title": "Čtení a zápis dat pomocí streamů",
+      "topics": [
+        "Úvod do streamů",
+        "Použití třídy FileStream",
+        "BinaryReader a BinaryWriter",
+        "StreamReader a StreamWriter",
+        "Použití třídy FileInfo",
+        "Použití třídy FileSystemWatcher",
+        "Použití třídy CryptoStream"
+      ]
+    },
+    {
+      "title": "Serializace dat",
+      "topics": [
+        "Úvod do serializace",
+        "Shallow a deep serializace",
+        "Serializace XML",
+        "Serializace Binární",
+        "Serializace JSON"
+      ]
+    }
+  ]
 }

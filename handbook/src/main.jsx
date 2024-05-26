@@ -3,13 +3,21 @@ import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import "./index.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import Anotation from "./Anotation.jsx";
+import Description from "./Description.jsx";
+import StudyGoals from "./StudyGoals.jsx";
+import RequiredKnowledge from "./RequiredKnowledge.jsx";
+import ToC from "./ToC.jsx";
 
 const router = createBrowserRouter([
   {
     path: "",
     element: <App />,
-    children: [{ path: "", element: <Anotation /> }],
+    children: [
+      { path: "", element: <Description /> },
+      { path: "studyGoals", element: <StudyGoals /> },
+      { path: "requiredKnowledge", element: <RequiredKnowledge /> },
+      { path: "toc", element: <ToC /> },
+    ],
   },
 ]);
 
