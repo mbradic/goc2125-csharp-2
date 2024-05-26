@@ -62,21 +62,25 @@
           "shortTitle": ".NET",
           "path": "dotnet",
           "content": "<ul><li>runtime</li></ul>"
+          
         },
         {
           "title": "Základní nástroje příkazové řádky",
           "path": "cli",
           "shortTitle": "dotnet cli"
+          
         },
         {
           "path": "oop",
           "shortTitle": "OOP",
           "title": "Stručný přehled základních pojmů OOP"
+          
         },
         {
           "path": "static",
           "shortTitle": "static",
-          "title": "Třída a statické členy"
+          "title": "Třída a statické členy",
+          "showCode": true
         },
         {
           "path": "inheritance",
