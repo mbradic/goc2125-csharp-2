@@ -1,0 +1,5 @@
+- třída
+- interface
+- pole
+- vlastnost
+- metoda
